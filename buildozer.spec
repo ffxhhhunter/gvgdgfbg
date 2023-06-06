@@ -14,9 +14,9 @@ version = 1.0
 
 requirements = kivy,pyrogram
 
-source.custom_requirements = pyrogram=https://github.com/pyrogram/pyrogram/archive/9e6f477.zip
+source.custom_requirements = python3,pyrogram,kivy
 
-android.entrypoint = main.py
+android.entrypoint = appmain.py
 
 android.logcat_filters = *:S python:D
 
